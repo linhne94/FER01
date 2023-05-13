@@ -1,0 +1,76 @@
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+form {
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.text {
+  text-align: center;
+}
+html {
+  background-color: rgb(255, 72, 0);
+}
+input[type="checkbox"] {
+  margin: 0px;
+}
+.hihi {
+  box-sizing: border-box;
+  padding: 7px 5px;
+  width: 100%;
+}
+p {
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+.flex {
+  margin: 5px 0;
+  display: flex;
+  gap: 2px;
+}
+
+.hihi1 {
+  box-sizing: border-box;
+  padding: 7px 5px;
+  width: 100%;
+  background-color: rgb(255, 214, 127);
+}
